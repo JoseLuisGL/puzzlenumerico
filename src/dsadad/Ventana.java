@@ -299,8 +299,10 @@ public class Ventana {
 				btnNewButton_5.getText().equals("7") && btnNewButton_8.getText().equals("8") && btnNewButton_9.getText().equals("9")
 				&& btnNewButton_7.getText().equals("10") && btnNewButton_10.getText().equals("11") && btnNewButton_12.getText().equals("12") && 
 				btnNewButton_11.getText().equals("13") && btnNewButton_13.getText().equals("14") && btnNewButton_14.getText().equals("15")
-				&& btnNewButton_15.getText().equals(""));
-				JOptionPane.showMessageDialog(null, "Has ganado", "Ganaste", JOptionPane.INFORMATION_MESSAGE);
+				&& btnNewButton_15.getText().equals("")) {
+			JOptionPane.showMessageDialog(null, "Has ganado", "Ganaste", JOptionPane.INFORMATION_MESSAGE);
+		}
+				
 	}
 	
 }
